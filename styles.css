@@ -1,0 +1,54 @@
+/* Odstranitev scrollbara */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    min-height: 100vh;
+  }
+  
+  body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding: 20px;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .rainbow-text {
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+  }
+  
+  canvas { 
+    background: #eee; 
+    display: block; 
+    margin: 20px auto; 
+    border: 1px solid #000; 
+  }
+  
+  .info { 
+    margin: 10px 0; 
+    font-size: 18px; 
+  }
+  
+  button { 
+    margin: 5px; 
+    padding: 8px 16px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
